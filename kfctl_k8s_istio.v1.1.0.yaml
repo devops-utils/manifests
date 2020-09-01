@@ -62,11 +62,6 @@ spec:
   - kustomizeConfig:
       repoRef:
         name: manifests
-        path: stacks/kubernetes/application/spark-operator
-    name: spark-operator
-  - kustomizeConfig:
-      repoRef:
-        name: manifests
         path: stacks/kubernetes
     name: kubeflow-apps
   - kustomizeConfig:
